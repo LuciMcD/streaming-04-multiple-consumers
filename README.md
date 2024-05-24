@@ -1,4 +1,8 @@
 # streaming-04-multiple-consumers
+### Student: Luci McDaniel
+### May 24, 2024
+### GitHub Profile: https://github.com/LuciMcD 
+
 
 > Use RabbitMQ to distribute tasks to multiple workers
 
@@ -28,12 +32,14 @@ RabbitMQ comes with an admin panel. When you run the task emitter, reply y to op
 1. Run emitter_of_tasks.py (say y to monitor RabbitMQ queues)
 
 Explore the RabbitMQ website.
+Note: Make sure module pika is installed. Open a new terminal and use command for Windows: python -m pip install pika. 
 
 ## Execute a Consumer / Worker
 
 1. Run listening_worker.py
 
 Will it terminate on its own? How do you know? 
+This will not terminate on its own. Ctrl C, is required to stop the process. It will continue to wait for another message. 
 
 ## Ready for Work
 
