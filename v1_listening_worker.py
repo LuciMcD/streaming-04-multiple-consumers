@@ -63,7 +63,7 @@ def listen_for_tasks():
     # This helps prevent a worker from becoming overwhelmed 
     # and improve the overall system performance.
     # prefetch_count = Per consumer limit of unaknowledged messages      
-    ch.basic_qos(prefetch_count=1) 
+    ch.basic_qos(prefetch_count=2) 
     
     # configure the channel to listen on a specific queue,  
     # use the callback function named callback,
