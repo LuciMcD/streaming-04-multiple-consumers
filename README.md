@@ -51,9 +51,11 @@ This will not terminate on its own. Ctrl C, is required to stop the process. It 
 
 Follow the tutorial. 
 Add multiple tasks (e.g. First message, Second message, etc.)
-How are tasks distributed? 
+How are tasks distributed? Tasks are split between the 2 workers. While the first worker is waiting the second worker receives the second message. Each worker receives every other message. 
+
 Monitor the windows with at least two workers. 
-Which worker gets which tasks?
+Which worker gets which tasks? The first terminal opened, or the first worker receives the first message and the next terminal will receive the next message and so on. 
+
 
 
 ## Reference
@@ -64,3 +66,5 @@ Which worker gets which tasks?
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
+This image shows how the messages are distributed. 
+![alt text](image.png)
