@@ -56,6 +56,28 @@ How are tasks distributed? Tasks are split between the 2 workers. While the firs
 Monitor the windows with at least two workers. 
 Which worker gets which tasks? The first terminal opened, or the first worker receives the first message and the next terminal will receive the next message and so on. 
 
+## Creating v3_emitter_of_tasks.py and v3_listening_worker.py
+The code for both scripts was initially copied from v2 and then edited. 
+Edits made were: 
+ADD:
+    import csv
+    import time
+
+    from util_logger import setup_logger
+    logger, logname = setup_logger(__file__)
+
+     with open('tasks.csv', 'r') as file:
+            reader = csv.reader(file)
+            for row in reader:
+                task = ''.join(row)
+
+REMOVE:
+    message: str parameter from the function and from the bottom of the script when the function is called. 
+
+CHANGE:
+    message was changed to task
+    task_queue was changed to task_queue3
+
 
 
 ## Reference
@@ -71,3 +93,6 @@ This image shows how the messages are distributed, before using logging instead 
 
 Screenshot after adding logging.
 ![alt text](image-1.png)
+
+Screenshot of version3 running.
+![alt text](image-2.png)
