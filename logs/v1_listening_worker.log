@@ -1,0 +1,15 @@
+2024-05-24 21:00:03,039.v1_listening_worker.INFO ==================================================
+2024-05-24 21:00:03,039.v1_listening_worker.INFO Today is 2024-05-24 at 09:00 PM
+2024-05-24 21:00:03,040.v1_listening_worker.INFO Running on: nt Windows 10
+2024-05-24 21:00:03,040.v1_listening_worker.INFO Python version:  3.11.7
+2024-05-24 21:00:03,040.v1_listening_worker.INFO Python path: C:\Users\lucim\anaconda3
+2024-05-24 21:00:03,040.v1_listening_worker.INFO Working dir: C:\Users\lucim\Streaming Data\streaming-04-multiple-consumers
+2024-05-24 21:00:03,041.v1_listening_worker.INFO ==================================================
+2024-05-24 21:00:03,060.v1_listening_worker.INFO  [*] Ready for work. To exit press CTRL+C
+2024-05-24 21:00:24,061.v1_listening_worker.INFO  [x] Received Just kidding, here's another task....
+2024-05-24 21:00:28,062.v1_listening_worker.INFO  [2024-05-22024-05-24 21:01:08,958.v1_listening_worker.INFO  [x] Received And another....
+2024-05-24 21:01:12,960.v1_listening_worker.INFO  [x] Done
+2024-05-24 21:01:57,421.v1_listening_worker.INFO  [x] Received Alright done...
+2024-05-24 21:02:00,422.v1_listening_worker.INFO  [x] Done
+2024-05-24 21:02:46,817.v1_listening_worker.INFO Interrupted
+nterrupted

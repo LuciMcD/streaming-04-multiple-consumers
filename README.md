@@ -66,5 +66,8 @@ Which worker gets which tasks? The first terminal opened, or the first worker re
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
-This image shows how the messages are distributed. 
+This image shows how the messages are distributed, before using logging instead of print statements.
 ![alt text](image.png)
+
+Screenshot after adding logging.
+![alt text](image-1.png)
